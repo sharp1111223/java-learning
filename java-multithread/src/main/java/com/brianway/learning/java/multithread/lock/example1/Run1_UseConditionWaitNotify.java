@@ -12,6 +12,7 @@ package com.brianway.learning.java.multithread.lock.example1;
 public class Run1_UseConditionWaitNotify {
     public static void main(String[] args) {
         ServiceB service = new ServiceB();
+
         ThreadB b = new ThreadB(service);
         b.start();
     }
